@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Avisos</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc7bc344-b5bb-4e1e-a3e8-2b07a6a84653</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d04f879e-1052-418b-9fe5-8e86f576a9d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>2025</defaultValue>
+      <description></description>
+      <id>d04f879e-1052-418b-9fe5-8e86f576a9d5</id>
+      <masked>false</masked>
+      <name>year</name>
+   </variable>
+</TestCaseEntity>
