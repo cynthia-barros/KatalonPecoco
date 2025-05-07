@@ -19,14 +19,14 @@
       <variableId>69b2a410-67c2-4807-abfa-e34d4996dfaa</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('PecocoUserInfo').getValue(1, 1)</defaultValue>
       <description></description>
       <id>aeec62f2-a21c-4f66-aeb3-82980272c4e1</id>
       <masked>false</masked>
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('PecocoUserInfo').getValue(2, 1)</defaultValue>
       <description></description>
       <id>69b2a410-67c2-4807-abfa-e34d4996dfaa</id>
       <masked>false</masked>
