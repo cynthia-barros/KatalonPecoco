@@ -17,6 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+/*
+WebUI.openBrowser('https://pecoco-dev.outsystems.app/Lubricantes/Login')
+
+WebUI.waitForPageLoad(1)
+
+WebUI.setText(findTestObject('Login/username_txt'), findTestData('PecocoUserInfo').getValue(1, 1))
+
+WebUI.setText(findTestObject('Login/password_txt'), findTestData('PecocoUserInfo').getValue(2, 1))
+
+WebUI.click(findTestObject('Login/login_btn'))
+*/
 WebUI.waitForPageLoad(25)
 
 WebUI.maximizeWindow()
@@ -32,12 +43,12 @@ WebUI.click(findTestObject('Calendar/Input_Year'))
 WebUI.setText(findTestObject('Calendar/Calendar_Year'), '2022')
 
 //WebUI.click(findTestObject('Calendar/Canlendar_Year_ArrowDown'), FailureHandling.STOP_ON_FAILURE)
-
 //WebUI.click(findTestObject('Calendar/Canlendar_Year_ArrowDown'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.clickOffset(findTestObject('Body'), 84, 548)
+WebUI.clickOffset(findTestObject('Calendar/Calendar'), 35, 118)
 
 WebUI.click(findTestObject('Avisos/Search_Btn2'))
 
-WebUI.delay(15)
+WebUI.enableSmartWait()
+
+WebUI.click(findTestObject('Avisos/Aviso_link_primeiralinha'))
 

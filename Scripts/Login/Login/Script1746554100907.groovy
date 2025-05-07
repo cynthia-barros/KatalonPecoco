@@ -21,9 +21,9 @@ WebUI.openBrowser('https://pecoco-dev.outsystems.app/Lubricantes/Login')
 
 WebUI.waitForPageLoad(1)
 
-WebUI.setText(findTestObject('Login/username_txt'), findTestData('PecocoUserInfo').getValue(1, 1))
+WebUI.setText(findTestObject('Login/username_txt'), username)
 
-WebUI.setText(findTestObject('Login/password_txt'), findTestData('PecocoUserInfo').getValue(2, 1))
+WebUI.setText(findTestObject('Login/password_txt'), password)
 
 WebUI.click(findTestObject('Login/login_btn'))
 
