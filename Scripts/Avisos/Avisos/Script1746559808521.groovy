@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-/*
+
 WebUI.openBrowser('https://pecoco-dev.outsystems.app/Lubricantes/Login')
 
 WebUI.waitForPageLoad(1)
@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Login/username_txt'), findTestData('PecocoUserInfo
 WebUI.setText(findTestObject('Login/password_txt'), findTestData('PecocoUserInfo').getValue(2, 1))
 
 WebUI.click(findTestObject('Login/login_btn'))
-*/
+
 WebUI.waitForPageLoad(25)
 
 WebUI.maximizeWindow()
