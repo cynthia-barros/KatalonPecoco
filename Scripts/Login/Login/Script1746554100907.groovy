@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://pecoco-dev.outsystems.app/Lubricantes/Login')
 
+WebUI.maximizeWindow()
+
 WebUI.waitForPageLoad(1)
 
 WebUI.setText(findTestObject('Login/username_txt'), username)
