@@ -16,38 +16,21 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-/*
-WebUI.openBrowser('https://pecoco-dev.outsystems.app/Lubricantes/Login')
 
-WebUI.maximizeWindow()
+WebUI.openBrowser('')
 
-WebUI.waitForPageLoad(1)
+WebUI.navigateToUrl('https://pecoco-dev.outsystems.app/Lubricantes/Login')
 
-WebUI.setText(findTestObject('Login/username_txt'), findTestData('PecocoUserInfo').getValue(1, 1))
+WebUI.setText(findTestObject('Object Repository/Avisos/aviso script/Page_Log in/input_Correo electrnico_Input_UserEmail'), 
+    'cynthiabarros12+dev@gmail.com')
 
-WebUI.setText(findTestObject('Login/password_txt'), findTestData('PecocoUserInfo').getValue(2, 1))
+WebUI.setEncryptedText(findTestObject('Object Repository/Avisos/aviso script/Page_Log in/input_Contrasea_Input_Password'), 
+    'ElWWk+M5aLVkJVmZ1TOtGg==')
 
-WebUI.click(findTestObject('Login/login_btn'))
-*/
-WebUI.waitForPageLoad(25)
+WebUI.click(findTestObject('Object Repository/Avisos/aviso script/Page_Log in/button_Ingresar'))
 
-WebUI.click(findTestObject('Menu/Avisos_Link'))
+WebUI.click(findTestObject('Object Repository/Avisos/aviso script/Page_Home/span_Avisos'))
 
-WebUI.waitForPageLoad(15)
-
-WebUI.click(findTestObject('Avisos/InitialDate_Input'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Calendar/Input_Year'))
-
-WebUI.setText(findTestObject('Calendar/Calendar_Year'), '2022')
-
-//WebUI.click(findTestObject('Calendar/Canlendar_Year_ArrowDown'), FailureHandling.STOP_ON_FAILURE)
-//WebUI.click(findTestObject('Calendar/Canlendar_Year_ArrowDown'), FailureHandling.STOP_ON_FAILURE)
-WebUI.clickOffset(findTestObject('Calendar/Calendar'), 35, 118)
-
-WebUI.click(findTestObject('Avisos/Search_Btn2'))
-
-WebUI.enableSmartWait()
-
-WebUI.click(findTestObject('Avisos/Aviso_link_primeiralinha'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Avisos/Dropdown_Alarma'), 
+    '0', true)
 

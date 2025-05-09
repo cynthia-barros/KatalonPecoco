@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Busca de avisos em alerta</description>
+   <name>AvisoFeature_Alerta</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>227fe69f-7a92-4edf-a153-b73925fbcdd8</testCaseGuid>
+</TestCaseEntity>

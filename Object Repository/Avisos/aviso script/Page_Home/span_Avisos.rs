@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Avisos</name>
+   <tag></tag>
+   <elementGuidId>9532beb6-485c-4b6c-b7ca-8c9c3de670fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='b5-Content']/div/a[3]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div[name=&quot;Avisos&quot;] > div.display-flex.gap-m.justify-content-space-between.align-items-center > span.font-size-h5.text-align-left.text-neutral-10</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>50035818-68ef-4b70-8fa9-48142878ac2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-size-h5 text-align-left text-neutral-10</value>
+      <webElementGuid>8b715486-e339-475f-baa2-2da38c47fece</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Avisos</value>
+      <webElementGuid>e87db5f6-b297-42b9-8017-e38ba7a54ce1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;b5-Content&quot;)/div[@class=&quot;list list-group OSFillParent&quot;]/a[3]/div[@class=&quot;card border-radius-soft&quot;]/div[@class=&quot;display-flex gap-m  justify-content-space-between align-items-center&quot;]/span[@class=&quot;font-size-h5 text-align-left text-neutral-10&quot;]</value>
+      <webElementGuid>037d9311-2a2d-4508-94a3-59eb9357b390</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='b5-Content']/div/a[3]/div/div/span</value>
+      <webElementGuid>285369d4-fcd4-4a30-821b-05eef091d28a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pantalla para análisis de desempeño'])[1]/following::span[1]</value>
+      <webElementGuid>9b26e25f-27f1-4993-a3c7-f767352d17ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Análisis'])[2]/following::span[2]</value>
+      <webElementGuid>e75bc3ea-b3de-457b-b813-07ef084def56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pantalla de la aplicación con avisos'])[1]/preceding::span[1]</value>
+      <webElementGuid>596e6457-b378-44b6-8141-4e3a4308a5f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cargar Muestras'])[2]/preceding::span[2]</value>
+      <webElementGuid>9980133b-3907-487e-8b73-dc6c560d03e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]/div/div/span</value>
+      <webElementGuid>b10ce7f4-9eff-47df-8186-8e91bd37f08a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Avisos' or . = 'Avisos')]</value>
+      <webElementGuid>9fe9a005-7007-4cfe-9c3b-339a8c84efc7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

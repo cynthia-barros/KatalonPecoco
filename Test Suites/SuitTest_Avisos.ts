@@ -34,13 +34,7 @@
       <guid>03a08ee1-df01-48a0-9291-7afffd3a3786</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Avisos/Avisos</testCaseId>
+      <testCaseId>Test Cases/Avisos/AvisoIA</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>d04f879e-1052-418b-9fe5-8e86f576a9d5</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
